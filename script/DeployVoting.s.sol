@@ -10,7 +10,7 @@ contract DeployVoting is Script {
         0xdD870fA1b7C4700F2BD7f44238821C26f7392148,
         0x583031D1113aD414F02576BD6afaBfb302140225
     ];
-    uint256 private constant INTERVAL = 360;
+    uint256 private constant INTERVAL = 43200;
 
     function run() external returns (Voting) {
         vm.startBroadcast();
